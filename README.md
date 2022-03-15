@@ -8,7 +8,7 @@
 ### Getting Started
 
 1. 	Install dependencies with `npm install`
-1. 	Run test with:
+2. 	Run test with:
 
 ```bash
 npm t
