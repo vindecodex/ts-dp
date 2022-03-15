@@ -1,0 +1,12 @@
+{
+				"extends": "@tsconfig/node14/tsconfig.json",
+				"compilerOptions": {
+								"removeComments": true,
+								"lib": ["ES2019"],
+								"target": "ES6"
+				},
+				"include": ["src/**/*"],
+				"watchOptions": {
+								"excludeDirectories": ["**/node_modules"]
+				}
+}

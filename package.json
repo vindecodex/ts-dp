@@ -1,0 +1,33 @@
+{
+  "name": "ts-dp",
+  "version": "1.0.0",
+  "description": "Design Patterns implemented in typescript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -w",
+    "test": "jest . -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vindecodex/ts-dp.git"
+  },
+  "keywords": [
+    "design-patterns",
+    "typescript",
+    "oop"
+  ],
+  "author": "vindecodex <villalunavincent@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vindecodex/ts-dp/issues"
+  },
+  "homepage": "https://github.com/vindecodex/ts-dp#readme",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.16.7",
+    "@tsconfig/node14": "^1.0.1",
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  }
+}
