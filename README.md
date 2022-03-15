@@ -1,5 +1,6 @@
 <div align="center">
 				<h1>Typescript Design Patterns</h1>
+				<img alt="Github build result" src="https://github.com/vindecodex/ts-dp/actions/workflows/node.js.yml/badge.svg">
 </div>
 
 ### Getting Started
