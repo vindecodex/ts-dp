@@ -7,6 +7,8 @@
 
 ### Getting Started
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a8b6eade555a4fa08495f62851cda379)](https://app.codacy.com/gh/vindecodex/ts-dp?utm_source=github.com&utm_medium=referral&utm_content=vindecodex/ts-dp&utm_campaign=Badge_Grade_Settings)
+
 1. Install dependencies with `npm install`
 2. Run test with:
 
