@@ -7,17 +7,17 @@
 
 ### Getting Started
 
-- 		Install Dependencies with `npm i`
+1. Install Dependencies with `npm i`
 
-- 		Run test with:
+2. Run test with:
 
-								```bash
-								npm t
-								' or
-								npm run test
-								' or
-								npx jest
-								```
+```bash
+npm t
+# or
+npm run test
+# or
+npx jest
+```
 
 ### Contribute
 Checkout our contributing guide [here](/CONTRIBUTE.md)
