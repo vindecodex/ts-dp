@@ -7,9 +7,9 @@
 
 ### Getting Started
 
--   Install Dependencies with `npm i`
+- 		Install Dependencies with `npm i`
 
--   Run test with:
+- 		Run test with:
 
 								```bash
 								npm t
