@@ -17,7 +17,7 @@ test_script:
   # run tests
   - npm test
 
-test:
+test_script:
   - npm t
 
 # Don't actually build.
