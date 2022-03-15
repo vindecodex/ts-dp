@@ -8,7 +8,6 @@
 ### Getting Started
 
 1. Install Dependencies with `npm i`
-
 2. Run test with:
 
 ```bash
