@@ -8,7 +8,3 @@ export abstract class Factory {
 								return tool.draw();
 				}
 }
-
-export function factoryMethod(tool: Factory): Tool {
-				return tool.createTool();
-}
