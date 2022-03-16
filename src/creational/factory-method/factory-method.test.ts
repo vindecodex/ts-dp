@@ -1,7 +1,7 @@
-import { PenTool } from './penTool';
-import { PencilTool } from './pencilTool';
+import { PenTool } from './tools';
+import { PencilTool } from './tools';
+import { Tool } from './tools';
 import { factoryMethod } from './factory';
-import { Tool } from './interface';
 
 test('Factory Method', () => {
 				const  pencil: Tool = factoryMethod(new PencilTool());
