@@ -1,4 +1,4 @@
-import { Tool } from './interface';
+import { Tool } from './tools';
 
 export abstract class Factory {
 				public abstract createTool(): Tool;
