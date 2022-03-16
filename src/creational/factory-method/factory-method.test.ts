@@ -1,6 +1,6 @@
 import { PenTool } from './penTool';
 import { PencilTool } from './pencilTool';
-import {  Factory, factoryMethod } from './factory';
+import { factoryMethod } from './factory';
 import { Tool } from './interface';
 
 test('Factory Method', () => {
