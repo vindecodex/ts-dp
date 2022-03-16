@@ -1,12 +1,10 @@
-import { PenTool } from './tools';
-import { PencilTool } from './tools';
-import { Tool } from './tools';
-import { factoryMethod } from './factory';
+import { Factory } from './factory';
+import { create } from './creator';
 
 test('Factory Method', () => {
-				const  pencil: Tool = factoryMethod(new PencilTool());
-				const  pen: Tool = factoryMethod(new PenTool());
+				const  pencil: Factory = create('pencil');
+				const  pen: Factory = create('pen');
 
-				expect(pencil.draw()).toBe('Drawing using Pencil');
-				expect(pen.draw()).toBe('Drawing using Pen');
+				expect(pencil.operate()).toBe('Drawing using Pencil');
+				expect(pen.operate()).toBe('Drawing using Pen');
 })
